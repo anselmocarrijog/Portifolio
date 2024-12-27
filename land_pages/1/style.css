@@ -1,0 +1,56 @@
+
+body{
+    background: orange;
+}
+    .div-1 {
+        background-color: #EBEBEB;
+        width: 300px;
+        height: 90px;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 15px 10px 20px -10px black;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin-top: -10px;
+    }
+    
+    .container{
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;       
+        
+        width: 850px;
+        align-content: center;
+        }
+    button{
+        width: 200px;
+        height: 45px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px black       
+    }
+    #div-3{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        
+        width: 850px;
+    }
+    #div-2{
+        display: flex;
+        justify-content: space-between;
+        
+        width: 850px;
+    }
+    #div-4{
+        display: flex;
+        justify-content:flex-start;
+    }
+
+
+
