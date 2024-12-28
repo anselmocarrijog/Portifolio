@@ -4,9 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
 h1{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+
 }
 .principal{
     padding: 60px;  
@@ -16,14 +18,17 @@ h1{
     height:100%; 
     width: 70%
 }
+
 hr{
     border: solid 2px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     width: 85%;
 }
+
 #title{
     color: rgb(25, 131, 25);
 }
+
 #name_blue{
     color:rgb(81, 81, 214)
 }
