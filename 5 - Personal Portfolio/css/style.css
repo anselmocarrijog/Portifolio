@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div#cabecalho{
+    width: auto; 
+    height: 250px; 
+    background: rgb(247, 245, 245); 
+    border: solid; 
+    margin-top: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+img{
+    width: 45px; 
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
+p#div_1{
+    margin-left: 80px ; 
+    margin-top: -40px; 
+    font-family:Arial; 
+    font-size: x-large;
+}
+
+nav{
+    margin-left: 1024px; 
+    margin-top: -40px;  
+    font-size:17px;
+    
+}
+
+a{
+    color: black;
+    font-weight:700;
+    text-align: center;
+}
+
+a#link{
+    color: rgb(98, 0, 255);
+    font-weight:700;
+    margin-left: 220px;
+
+}
+
+h1#div_1{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1#div_2{
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h1#div_3{
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2#div_2{
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 0;
+}
+
+p#descricao{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 25px;
+}
+
+ul#div_2{
+    font-size: 18px;
+    font-family: cursive;
+    margin-left: 10px; 
+    margin-right: 20px;
+    list-style: none;
+}
+ul{
+    font-size: 18px;
+    font-family: cursive;
+    margin-left: 10px; 
+    margin-right: 20px;
+} 
+
+#projetos{
+    width: 200px; 
+    height: 350px; 
+    background: rgb(247, 245, 245); 
+    border: solid; 
+    margin-top: 3px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+#experiencias{
+    width: 486px; 
+    height: 350px; 
+    background: rgb(247, 245, 245); 
+    border: solid; 
+    margin-top: -356px; 
+    margin-left: 838px; 
+    margin-right: 20px;
+}
+
+#educacao{
+    width: 600px; 
+    height: 350px; 
+    background: rgb(247, 245, 245); 
+    border: solid; 
+    margin-top: -356px; 
+    margin-left: 229px; 
+    margin-right: 20px;
+
+}
+

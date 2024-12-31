@@ -1,0 +1,140 @@
+
+@media screen and (max-width: 720px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    div#cabecalho{
+        text-align: center;
+        width: auto; 
+        height: 250px; 
+        background: rgb(247, 245, 245); 
+        border: solid; 
+        margin-top: 0px; 
+        margin-left: 0px; 
+        margin-right: 0px;
+    }
+
+    div#projetos{
+        width: auto; 
+        height: auto; 
+        background: rgb(247, 245, 245); 
+        border: solid; 
+        margin-top: 3px; 
+        margin-left: 0px; 
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    div#educacao{
+        display: block;
+        width: auto; 
+        height: auto; 
+        background: rgb(247, 245, 245); 
+        border: solid; 
+        margin-top: 3px; 
+        margin-left: 0px; 
+        margin-right: 0px;
+        text-align: center;
+        
+    
+    } 
+
+    div#experiencias{
+        width: auto; 
+        height: auto; 
+        background: rgb(247, 245, 245); 
+        border: solid; 
+        margin-top: 3px; 
+        margin-left: 0px; 
+        margin-right: 0px;
+    }
+    
+    img{
+        display: none;
+    }
+    
+    p#div_1{
+        margin-left: 50px ; 
+        margin-top: -30px; 
+        font-family:Arial; 
+        font-size: 18px;
+        font-weight: bold;
+    }
+    p#descricao{
+        font-family: cursive;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    nav{
+        margin-left: 0; 
+        margin-right: 0;
+        margin-top: 20px;  
+        font-size:16px;
+        text-align: center;
+        
+        
+    }
+    
+    
+    a{
+        color: black;
+        font-weight:700;
+        text-align: center;
+    }
+
+    a#link{
+        color: rgb(15, 6, 141);
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    
+    
+    h1#div_1{
+        font-family: cursive;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 50px;
+
+    }
+
+    
+    
+    h1#div_2{
+        font-family: cursive;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    h1#div_3{
+        font-family: cursive;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    h2#div_2{
+        font-family: cursive;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 0;
+    } 
+    
+    
+    
+    ul#div_2{
+        display: block;
+        font-size: 18px;
+        font-family: cursive;
+        margin-left: 0; 
+        margin-right: 50px;
+        list-style: none;
+        
+    }
+
+}
