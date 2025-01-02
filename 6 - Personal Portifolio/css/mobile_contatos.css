@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media  (max-width: 767px) {
+
+    @font-face {
+        font-family: Bosil;
+        src: url(/fonts/bosil.ttf);
+    }
+    h1 {
+        font-family: bosil;
+        font-size: 40px;
+        color: rgba(0, 0, 0);
+        text-align: center;               
+        }
+
+        
+    body {
+        background-image: url(/img/backgroud.jpg);
+        padding: 5px;
+        
+        }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a, span {
+        color: rgb(255,255,255);
+        font-size: 22px;
+        text-decoration: none;
+    }
+    img {
+        
+        width: 60px;
+        height: 60px;
+        margin-top: 30px;
+    }
+}

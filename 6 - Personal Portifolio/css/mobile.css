@@ -1,158 +1,147 @@
 @charset "UTF-8";
 
-@media (max-width: 1366px) {
-
-    /* Aqui comça a primeira parte */
-
-    * {
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-    border-width: 0px;
-    outline-width: 0px;
-    }
+@media (max-width: 767px) {
 
     @font-face {
-        font-family: bosil;
-        src: url(/fonts/Fonts/bosil\ unique\ regular.ttf);
+        font-family: Bosil;
+        src: url(/fonts/bosil.ttf);
+    }
+
+    body {
+    background-image: url(/img/backgroud.jpg);
+    }
+
+    h1 {
+    font-family: bosil;
+    font-size: 40px;
+    color: rgba(0, 0, 0);               
+    }
+
+    h1#projetos, h1#descricao {
+    font-family: bosil;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.95);
+    text-decoration: 5px underline  rgb(65, 105, 225);
+               
     }
     
+    hr#divisao {
+    margin-top: 30px;
+    width: 767px;
+    height: 5px;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(208, 218, 248);
+    }
+
     p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 22px ;
-        margin-top: -10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-   
-
-    div.apresentacao, div.projetos,div.work,div.education,div.teachers,div.img_empresas {
-        height: auto;
-        margin-top: 5px;
-        margin-left: 20px;
-        margin-right: 20px;
-        border: 2px solid black;
-        border-radius: 10px;
-        border-top: 1px;
-                
-    }
-
-    div#img {      
-        width: 150px;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-
-    img {
-        width: 150px;
-        height: 150px;
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    div#nome , h1 {
-        font-family: bosil;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-
-    div#menu {
-        display: flex;      
-        width: auto;
-        margin-top: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content:space-around;
-            
-    }
-
-    a#menu:hover {
-        font-size: 25px;
-    }
-
-    a#projetos:hover {
-        font-size: 25px;
-        color: blue;
-    }
-
-    a#perfil_social:hover {
-        font-size: 25px;
-        margin-bottom: 10px;
-        
-    }
-
-    a#perfil_social {
-        color: blue;
-        margin-left: 10px;
-        font-size: 18px;
-    }
-
-
-    li#menu, a#menu {
-        font-weight:bold;
-        font-style: italic;
-        color: blue;
-        display: block;
-        list-style: none;
-        display: contents;
-        font-size: 23px;
-    }
-
-    ul#menu {
-        font-weight: 900;
-    }
-
-    div#banner {
-        margin-top: 20px;
-        height: auto;
-        
-    }
-
-}
-
-ul#projetos,li#projetos, a#projetos {
     text-align: center;
-    font-size: 20px;
-    margin-top: -15px;
-    list-style: none;
-    margin-bottom: 10px;
-    color: black;
+    margin-top: -35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+        
+    }
+
+    p#descricao {
+        
+    margin-top: 2px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align:left;
+    margin: 15px
+    }
+
+    p#termos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgb(208, 218, 248) ;
+    }
+
+    .container {
+    margin-top: 5px;
+    border: 2px solid rgb();
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    flex-wrap: wrap;       
+    }
+           
+    .nome {
+    margin-top: -25px;
+    height: 70px;
+    width: 767px;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    }
+
+    #img_perfil {
+    display: block;
+    width: 150px;
+    height: 150px;
+    }
+
+    .menu_nav {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    width: 450px;
+    margin-left: 1px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 5px #9b1919;
+    display: flex;
+    justify-content: center;
+    background: rgb(208, 218, 248);       
+    }
+
+    a {
     text-decoration: none;
+    color: rgb(65, 105, 225);       
+    }
+
+    a:hover {
+    font-size: 24px;
+    color: #9b1919;
+    }
+
+    /* Projetos */
     
-}
-
-hr {
-    width: 100%;
-    height: 2px;
-    margin-bottom: 10px;
-    color: black;
-    
-}
-
-ul#education {
-
+    .projetos {
     font-size: 20px;
-    margin-left: 10px;
-    list-style: none;
+    font-weight: bold;
+    width: 400px;
+    height: auto;
+    margin-top: 10px;   
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(65, 105, 225);
+    text-align: center;
+    background: rgb(208, 218, 248);
+    }
+
+    .work {
+    font-size: 20px;
+     width: 400px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(65, 105, 225);
+    text-align: center;
+    justify-content: left;
+    background: rgb(208, 218, 248);
+    }
+
+    /* Paleta de cores */
+/*
+.color-1 { background-color: rgb(65, 105, 225); }
+.color-2 { background-color: rgb(113, 143, 233); }
+.color-3 { background-color: rgb(160, 180, 240); }
+.color-4 { background-color: rgb(208, 218, 248); }
+.color-5 { background-color: rgb(255, 255, 255); } */
 }
-
-img#empresas {
-    width: 80px;
-    height: 80px;
-
-}
-
-#termos {
-    margin-left: 10px;
-}
-
-
-

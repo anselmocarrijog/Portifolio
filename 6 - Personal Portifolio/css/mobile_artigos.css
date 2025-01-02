@@ -1,8 +1,12 @@
-@media (max-width:1366px) {
+@media (max-width:767px) {
 
     @font-face {
         font-family: bosil;
-        src: url(/fonts/Fonts/bosil\ unique\ regular.ttf);
+        src: url(/fonts/bosil.ttf);
+    }
+
+    body {
+        background-image: url(/img/backgroud.jpg);
     }
 
     /*  Configuração dos parágrafos e títulos */
@@ -33,17 +37,17 @@
         border-radius: 10px;
         border-top: 1px;
         display: flex;
-        justify-content:center;
-        
-        
+        justify-content:center;  
+             
     }
-    
 }   
     /* Configuração das imagens*/
 
     img#img_artigos {
         height: 255px;
         width: 355px;
+        border-radius: 15px;
+        
     }
 
     
